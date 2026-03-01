@@ -21,7 +21,7 @@ categoricalGrade list =
             if x < 0.0 then
                 Pending
 
-            else if x > 7 then
+            else if x => 7 then
                 Approved
 
             else
